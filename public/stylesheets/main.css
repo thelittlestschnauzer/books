@@ -13,9 +13,9 @@
 
   /* --- Welcome Page Styles --- */
   body {
-    background-color: lightblue;
+    background-color: blue;
     color: #333;
-    font-family: Sans-Serif;
+    font-family: 'Playfair Display', serif;
     line-height: 18px;
   }
 
@@ -66,10 +66,12 @@
     float: right;
     padding: 2.08333333333%; /* 5px / 240px */
     width: 30%; /* 240px / 800px */
+    text-align: center;
   }
 
   .sidebar ul {
     font-size: 14px;
+    text-align: center;
   }
 
   .branding {
