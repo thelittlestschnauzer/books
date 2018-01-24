@@ -17,4 +17,14 @@ class UsersController < ApplicationController
       redirect to '/signup'
     end
   end
+
+  get '/login' do
+    if !logged_in?
+      erb :"/user/login"
+    else
+      redirect to "books"
+    end
+  end
+
+
 end
